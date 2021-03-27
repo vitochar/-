@@ -1,0 +1,12 @@
+#include <stdio.h
+#include <math.h>
+int main()
+{
+	float p, r, n;
+	r = 0.07;  //r为年增长值
+	n = 10;    //10年
+	p = pow(1 + r, n);//函数p= pow（1+r）^10  
+	printf("%f", p); //1.967152
+
+	return 0;
+}  
