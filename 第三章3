@@ -1,0 +1,9 @@
+#include <stdio.h>  
+#include <math.h>
+int main()
+{
+	double m, d = 300000, p = 6000, r = 0.01;    //d为贷款总额  p为每月还款额度  r为利率 m为需要还款月份
+	m = (log(p / (p - d * r))) / (log(1 + r));
+	printf("需要还清的月份一共是：%.1lf", m);
+	return 0;
+}
