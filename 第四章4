@@ -1,0 +1,14 @@
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//int main()
+//{
+//	int a, b, c,max;   //输入三个数，输出最大一个
+//	printf("请输入三个整数，以空格分开：");
+//	scanf("%d%d%d", &a, &b, &c);  
+//	max = (a > b) ?  a: b;  //max=a大于b中的一个值，如果大于就是a，否则就是b
+//	if(max<c)             //得出a和b的最大后，和c做比较，如果小于c，就打印c
+//	printf("最大值为：%d", c);//也可以写成temp=(max>c)?max:c;
+//	else
+//	printf("最大值为：%d", max);  //否则就是大于c，就打印max
+//	return 0;
+//}
