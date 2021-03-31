@@ -1,0 +1,21 @@
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//int main()
+//{
+//	int a;
+//	printf("请输入分数："); //输入一个分数，输出对应的成绩等级
+//	scanf("%d", &a);
+//	if (a > 89 && a < 101)
+//		printf("成绩为：A");
+//	else if (a > 79 && a < 90)
+//		printf("成绩为：B");
+//	else if (a > 69 && a < 80)
+//		printf("成绩为：C");
+//	else if (a > 59 && a < 70)
+//		printf("成绩为：D");
+//	else if (a >= 0 && a < 60)
+//		printf("成绩为：E");
+//	else
+//		printf("请输入正确的分数");
+//	return 0;
+//}
